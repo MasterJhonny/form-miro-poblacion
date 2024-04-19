@@ -1,0 +1,126 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Checkbox.css */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* GridCheckboxes.css */
+.grid-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* RadioBoton.css */
+.radio-boton-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-boton-container input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* GridRadioBotones.css */
+.grid-radio-botones {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Boton.css */
+.boton {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #45a049;
+}
+
+/* RegistroPoblacionForm.css */
+.registro-poblacion-form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #434242;
+}
+
+.registro-poblacion-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registro-poblacion-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registro-poblacion-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.registro-poblacion-form input[type="text"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.registro-poblacion-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro-poblacion-form button:hover {
+  background-color: #45a049;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
