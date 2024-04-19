@@ -1,6 +1,6 @@
 const postData = async (data) => {
   try {
-    const response = await fetch("https://api-miro-poblacion.vercel.app//datos", {
+    const response = await fetch("https://api-miro-poblacion.vercel.app/datos", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
